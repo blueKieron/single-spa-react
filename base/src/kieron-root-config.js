@@ -9,13 +9,22 @@ registerApplication({
   activeWhen: location => location.pathname == '/',
 });
 
+// registerApplication({
+//   name: "@kieron/navbar",
+//   app: () =>
+//     System.import(
+//       "@kieron/navbar"
+//     ),
+//   activeWhen: location => location.pathname == '/'
+// });
+
 registerApplication({
-  name: "@kieron/people",
+  name: "@kieron/github",
   app: () =>
     System.import(
-      "@kieron/people"
+      "@kieron/github"
     ),
-  activeWhen: location => location.pathname == '/people',
+  activeWhen: ['/github']
 });
 
 // registerApplication({

@@ -1,0 +1,20 @@
+.opacity-50 {
+  opacity: 0.5
+}
+.mb-8 {
+  margin-bottom: 10px;
+}
+.font-bold {
+  font-weight: 700;
+}
+.py-2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.bg-secondary {
+  background-color: #8b8c8a;
+}
